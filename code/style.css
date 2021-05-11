@@ -1,0 +1,382 @@
+body {
+  background-color: #f6f6f6;
+  width:100%;
+  height:100%;
+}
+
+h2 {
+  margin-left: 40px;
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 50px;
+  display: inline-block;
+  font-family: arial;
+  color: gray;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+/* heading */
+h1 {
+  position: absolute;
+  left: 320px;
+  top: 120px;
+  margin: auto;
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 4rem;
+  width: 35%;
+  line-height: 1.5;
+}
+/* horizontal line under para  */
+hr {
+  width: 30%;
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FF5349;
+  border-width: 3px;
+  position: absolute;
+  right: 129px;
+}
+/* button */
+.btn-1 {
+  margin-top: 70px;
+  margin-left: 70px;
+  background-color: #FF5349;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding: 15px 45px;
+}
+/* link text deco */
+.first-link {
+  text-decoration: line-through red 2px;
+}
+/* h1 styling */
+.first-h2 {
+  margin-bottom: 1px;
+}
+
+.second-h2 {
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+/* top paragraph */
+.para-1 {
+  position: absolute;
+  width: 12%;
+  top: 120px;
+  right: 300px;
+  color: gray;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+/* tacos */
+.tacos {
+  position: absolute;
+  width: 60%;
+  border-radius: 120px;
+  left: 35px;
+  top: 27px;
+}
+
+.one {
+  margin-top: 70px;
+  position: absolute;
+  left: 320px;
+  top: 320px;
+  background-color: white;
+  width: 12%;
+  height: 35%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-para-1 {
+  position: absolute;
+  top: 155px;
+  font-weight: bold;
+  margin-left: 42px;
+  font-family: sans-serif;
+}
+/* pizza */
+.pizza {
+  position: absolute;
+  width: 60%;
+  height: 53%;
+  border-radius: 120px;
+  left: 35px;
+  top: 27px;
+}
+
+.two {
+  margin-top: 70px;
+  position: absolute;
+  left: 525px;
+  top: 320px;
+  background-color: white;
+  width: 12%;
+  height: 35%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-para-2 {
+  position: absolute;
+  top: 155px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+/* chicken burger */
+.chicken-burger {
+  position: absolute;
+  width: 60%;
+  height: 53%;
+  border-radius: 120px;
+  left: 35px;
+  top: 27px;
+}
+
+.three {
+  margin-top: 70px;
+  position: absolute;
+  left: 730px;
+  top: 320px;
+  background-color: white;
+  width: 12%;
+  height: 35%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-para-3 {
+  position: absolute;
+  top: 155px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+/* loaded nachos */
+.loaded-nachos {
+  position: absolute;
+  width: 60%;
+  height: 53%;
+  border-radius: 120px;
+  left: 35px;
+  top: 27px;
+}
+
+.four {
+  margin-top: 70px;
+  position: absolute;
+  left: 935px;
+  top: 320px;
+  background-color: white;
+  width: 12%;
+  height: 35%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-para-4 {
+  position: absolute;
+  top: 155px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+/* hakka noodles */
+.hakka-noodles {
+  position: absolute;
+  width: 60%;
+  height: 53%;
+  border-radius: 120px;
+  left: 35px;
+  top: 27px;
+}
+
+.five {
+  margin-top: 70px;
+  position: absolute;
+  left: 1140px;
+  top: 320px;
+  background-color: white;
+  width: 12%;
+  height: 35%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-para-5 {
+  position: absolute;
+  top: 155px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+/* media queries */
+@media screen and (max-width: 600px){
+
+    .first-h2{
+      text-align: center;
+      width:79%;
+      font-size: 1.8rem;
+    }
+     .second-h2{
+      display:none;
+
+    }
+    nav{
+      display:none;
+    }
+.btn-1{
+  margin: auto;
+  position:absolute;
+  left:400px;
+  top:25px;
+  padding:10px 25px;
+}
+h1{
+  font-size:2rem;
+  position:absolute;
+  left:50px;
+  width: 55%;
+
+}
+.para-1{
+  position:absolue;
+  width:60%;
+  margin: auto;
+  left:-10px;
+  top:730px;
+  padding-left:60px;
+  padding-right: 0px;
+}
+
+hr{
+position: absolute;
+position: absolute;
+width: 20%;
+right: 220px;
+}
+.tacos {
+  position: absolute;
+  width: 70%;
+  border-radius: 120px;
+  left: 20px;
+  top: 27px;
+}
+.one{
+  position: absolute;
+  margin-top: 100px;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+
+}
+.small-para-1 {
+  position: absolute;
+  top: 150px;
+  font-weight: bold;
+  margin-left: 33px;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+
+}
+
+.two {
+  margin-top: 100px;
+  position: absolute;
+  left: 230px;
+  top: 150px;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+.small-para-2 {
+  position: absolute;
+  top: 150px;
+  font-weight: bold;
+  margin-left: 33px;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+}
+
+.three {
+  margin-top: 70px;
+  position: absolute;
+  left: 50px;
+  top: 420px;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+.small-para-3 {
+  position: absolute;
+  top: 150px;
+  font-weight: bold;
+  margin-left: 33px;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+}
+.chicken-burger {
+  position: absolute;
+  width: 70%;
+  height: 53%;
+  border-radius: 120px;
+  left: 24px;
+  top: 27px;
+}
+.four {
+  margin-top: 70px;
+  position: absolute;
+  left: 230px;
+  top: 420px;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 30px;
+  box-shadow: 12px 15px 12px rgba(0, 0, 0, 0.1);
+}
+.loaded-nachos {
+  position: absolute;
+  width: 70%;
+  height: 53%;
+  border-radius: 120px;
+  left: 24px;
+  top: 27px;
+}
+.small-para-4 {
+  position: absolute;
+  top: 150px;
+  font-weight: bold;
+  margin-left: 33px;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+}
+
+
+}
